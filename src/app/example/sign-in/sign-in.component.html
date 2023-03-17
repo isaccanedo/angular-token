@@ -1,0 +1,45 @@
+<div class="col-md-6">
+	<mat-card>
+		<mat-card-title>
+			<mat-icon color="primary">lock</mat-icon>
+			Sign In
+		</mat-card-title>
+		<mat-card-subtitle>
+			Sign into a previously registered Account
+		</mat-card-subtitle>
+
+		<mat-card-content>
+			<form #signInForm="ngForm" (ngSubmit)="onSubmit()">
+				<mat-form-field>
+					<input
+						matInput
+						type="email"
+						placeholder="Email"
+						required
+						[(ngModel)]="signInData.login"
+						name="email">
+				</mat-form-field>
+				
+				<mat-form-field>
+					<input 
+						matInput
+						type="password"
+						placeholder="Password"
+						required
+						[(ngModel)]="signInData.password"
+						name="password">
+				</mat-form-field>
+
+				<button
+					mat-raised-button
+					color="primary"
+					type="submit"
+					[disabled]="!signInForm.form.valid">Sign In</button>
+			</form>
+		</mat-card-content>
+	</mat-card>
+</div>
+
+<div class="col-md-6">
+	<app-output [response]="output"></app-output>
+</div>

@@ -1,0 +1,55 @@
+<div class="col-md-6">
+	<mat-card>
+		<mat-card-title>
+			<mat-icon color="primary">account_circle</mat-icon>
+			Register
+		</mat-card-title>
+		<mat-card-subtitle>
+			Register a new Account
+		</mat-card-subtitle>
+
+		<mat-card-content>
+			<form #registerForm="ngForm" (ngSubmit)="onSubmit()">
+				<mat-form-field>
+					<input
+						matInput
+						type="text"
+						placeholder="Email"
+						required
+						[(ngModel)]="registerData.login"
+						name="login">
+				</mat-form-field>
+				
+				<mat-form-field>
+					<input
+						matInput
+						type="password"
+						placeholder="Password"
+						required
+						[(ngModel)]="registerData.password"
+						name="password">
+				</mat-form-field>
+				
+				<mat-form-field>
+					<input
+						matInput
+						type="password"
+						placeholder="Password Confirmation"
+						required
+						[(ngModel)]="registerData.passwordConfirmation"
+						name="passwordConfirmation">
+				</mat-form-field>
+
+				<button
+					mat-raised-button
+					color="primary"
+					type="submit"
+					[disabled]="!registerForm.form.valid">Register</button>
+			</form>
+		</mat-card-content>
+	</mat-card>
+</div>
+
+<div class="col-md-6">
+	<app-output [response]="output"></app-output>
+</div>
