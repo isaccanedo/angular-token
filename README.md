@@ -90,11 +90,3 @@ After installing this package, if you get an `Error: inject() must be called fro
         error =>    console.log(error)
     );
     ```
-
-## Contributors
-
-| [<img src="https://avatars3.githubusercontent.com/u/11535793?v=4" width="100px;"/><br /><sub>Jan-Philipp Riethmacher</sub>](https://github.com/neroniaky) | [<img src="https://avatars.githubusercontent.com/u/7848606?v=4" width="100px;"/><br /><sub>Arjen Brandenburgh</sub>](https://github.com/arjenbrandenburgh)
-| :---: | :---: |
-
-### License
-The MIT License (see the [LICENSE](https://github.com/neroniaky/angular-token/blob/master/LICENSE) file for the full text)
