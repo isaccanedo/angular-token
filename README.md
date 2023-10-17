@@ -5,7 +5,7 @@
 [![Build Status](https://travis-ci.org/neroniaky/angular-token.svg?branch=master)](https://travis-ci.org/neroniaky/angular-token)
 [![Angular Style Guide](https://mgechev.github.io/angular2-style-guide/images/badge.svg)](https://angular.io/styleguide)
 
-🔑 Token based authentication service for Angular with interceptor and multi-user support. Works best with the [devise token auth](https://github.com/lynndylanhurley/devise_token_auth) gem for Rails.
+🔑 Serviço de autenticação baseado em token para Angular com interceptor e suporte multiusuário. Funciona melhor com o [devise token auth](https://github.com/lynndylanhurley/devise_token_auth) gem for Rails.
 
 👋 This library has been renamed to **Angular-Token**! Please follow the [migration guide](https://angular-token.gitbook.io/docs/migrate-to-7).
 
