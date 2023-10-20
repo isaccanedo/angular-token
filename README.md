@@ -27,7 +27,7 @@
     npm install angular-token
     ```
 
-2. Import and add `AngularTokenModule` to your main module and call the 'forRoot' function with the config. Make sure you have `HttpClientModule` imported too.
+2. Importe e adicione `AngularTokenModule` ao seu módulo principal e chame a função 'forRoot' com o arquivo config. Certifique-se de ter importado `HttpClientModule` também.
     ```javascript
     import { AngularTokenModule } from 'angular-token';
 
