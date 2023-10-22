@@ -22,7 +22,7 @@
 ## Instalar
 0. Configure um Rails com [Devise Token Auth](https://github.com/lynndylanhurley/devise_token_auth)
 
-1. Install Angular-Token via NPM with
+1. Instale Angular-Token via NPM com
     ```bash
     npm install angular-token
     ```
