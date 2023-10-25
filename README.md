@@ -44,7 +44,7 @@
     })
     ```
 
-3. (Maybe Optional) Fix injection context runtime error
+3. (Talvez opcional) Corrigir erro de tempo de execução do contexto de injeção
 After installing this package, if you get an `Error: inject() must be called from an injection context` when running your app, add the following to your typescript path config in the `tsconfig[.app].json` file:
     ```json
     "paths": {
