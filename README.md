@@ -13,7 +13,7 @@
 
 ### Links Rápidos
 
-- 🚀 View to demo on [Stackblitz](https://stackblitz.com/github/neroniaky/angular-token)
+- 🚀 Ver para demonstração em [Stackblitz](https://stackblitz.com/github/neroniaky/angular-token)
 - ✨ Learn about it on the [docs site](https://angular-token.gitbook.io/docs)
 - 🔧 Support us by [contributing](https://angular-token.gitbook.io/docs/contribute)
 
