@@ -14,8 +14,8 @@
 ### Links Rápidos
 
 - 🚀 Ver para demonstração em [Stackblitz](https://stackblitz.com/github/neroniaky/angular-token)
-- ✨ Learn about it on the [docs site](https://angular-token.gitbook.io/docs)
-- 🔧 Support us by [contributing](https://angular-token.gitbook.io/docs/contribute)
+- ✨ Aprenda sobre isso no [docs site](https://angular-token.gitbook.io/docs)
+- 🔧 Apoie-nos por [contributing](https://angular-token.gitbook.io/docs/contribute)
 
 ---
 
@@ -45,16 +45,16 @@
     ```
 
 3. (Talvez opcional) Corrigir erro de tempo de execução do contexto de injeção
-After installing this package, if you get an `Error: inject() must be called from an injection context` when running your app, add the following to your typescript path config in the `tsconfig[.app].json` file:
+Depois de instalar este pacote, se você receber um `Erro: inject() deve ser chamado a partir de um contexto de injeção` ao executar seu aplicativo, adicione o seguinte à configuração do caminho do TypeScript no arquivo `tsconfig[.app].json` file:
     ```json
     "paths": {
       "@angular/*": [ "./node_modules/@angular/*" ]
     }
     ```
 
-## Use
+## Usar
 
-1. Register your user
+1. Cadastre seu usuário
     ```javascript
     constructor(private tokenService: AngularTokenService) { }
 
@@ -68,7 +68,7 @@ After installing this package, if you get an `Error: inject() must be called fro
     );
     ```
 
-2. Sign in your user
+2. Faça login com seu usuário
     ```javascript
     constructor(private tokenService: AngularTokenService) { }
 
@@ -81,7 +81,7 @@ After installing this package, if you get an `Error: inject() must be called fro
     );
     ```
 
-3. Now you can use HttpClient to access private resources
+3. Agora você pode usar HttpClient para acessar recursos privados
     ```javascript
     constructor(http: HttpClient) { }
 
