@@ -45,7 +45,7 @@
     ```
 
 3. (Talvez opcional) Corrigir erro de tempo de execução do contexto de injeção
-Depois de instalar este pacote, se você receber um `Erro: inject() deve ser chamado a partir de um contexto de injeção` ao executar seu aplicativo, adicione o seguinte à configuração do caminho do TypeScript no arquivo `tsconfig[.app].json` file:
+Depois de instalar este pacote, se você receber um `Erro: inject() deve ser chamado a partir de um contexto de injeção` ao executar seu aplicativo, adicione o seguinte à configuração do caminho do TypeScript no arquivo `tsconfig[.app].json`:
     ```json
     "paths": {
       "@angular/*": [ "./node_modules/@angular/*" ]
