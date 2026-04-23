@@ -11,7 +11,7 @@
 
 ---
 
-# Links Rápidos
+## Links Rápidos
 
 - 🚀 Ver para demonstração em [Stackblitz](https://stackblitz.com/github/neroniaky/angular-token)
 - ✨ Aprenda sobre isso no [docs site](https://angular-token.gitbook.io/docs)
